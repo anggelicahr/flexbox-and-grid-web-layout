@@ -1,0 +1,141 @@
+/* RESPONSIVE */
+@media (max-width: 700px) {
+  nav ul.nav__menu {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 100%;
+    padding: 30px;
+    transform: translateX(-400px);
+    transition: transform 0.5s ease-in-out;
+    background: #ddd;
+  }
+
+  nav ul.nav__menu.show {
+    transform: translateX(-20px);
+    opacity: 0.9;
+    width: 50%;
+  }
+
+  .nav__menu a {
+    color: #000;
+  }
+  .menu-btn {
+    display: block;
+  }
+
+  header {
+    height: auto;
+    padding-bottom: 40px;
+  }
+
+  .header__showcase {
+    margin-top: 0px;
+  }
+
+  .header__showcase--first,
+  hr {
+    width: 100%;
+  }
+
+  .header__showcase--title {
+    font-size: 3rem;
+  }
+
+  .header__showcase--subtitle {
+    font-size: 1.4rem;
+  }
+
+  .header__showcase--second {
+    width: 100%;
+    position: absolute;
+  }
+
+  .header__button {
+    width: 100%;
+  }
+
+  .news__cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .content__cubo {
+    width: 80%;
+    margin-top: -100px;
+  }
+
+  .container__css {
+    width: 200px;
+    height: 200px;
+    margin: 300px auto 0;
+  }
+
+  .cube__face {
+    width: 100px;
+    height: 100px;
+  }
+
+  .base,
+  .base__top {
+    top: 160px;
+  }
+
+  .form {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0;
+  }
+
+  .form__i i {
+    margin-top: 80px;
+    font-size: 8rem;
+  }
+
+  .social__media {
+    display: block;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .social__media--content {
+    padding: 10px;
+  }
+
+  .social__media .social__media--content h3 {
+    font-size: 2rem;
+  }
+
+  .footer .footer--container {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0 60px;
+  }
+}
+
+@media (max-width: 500px) {
+  .news__cards {
+    grid-template-columns: 1fr;
+  }
+
+  .banner .content {
+    width: 100%;
+    padding: 60px 20px;
+  }
+
+  .content__cubo {
+    width: 50%;
+    margin-top: -40px;
+    margin-left: 50px;
+  }
+
+  .container__css {
+    width: 200px;
+    height: 200px;
+    margin: 30px auto 0;
+  }
+
+  .form {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 80px 0;
+  }
+}

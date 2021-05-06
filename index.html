@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexblox and Grid</title>
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="/src/style.css">
+    <link rel="stylesheet" href="/src/cube.css">
+    <link rel="stylesheet" href="/src/mobile.css">
+</head>
+<body>
+    
+    <header>
+        <section class="container">
+            <nav>
+                <figure>
+                    <img class="figure__logo" src="https://cdn.pixabay.com/photo/2020/07/14/15/12/controller-5404616_960_720.png" alt="Logo">
+                </figure>
+                <ul class="nav__menu show">
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Team</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                </ul>
+                <ul class="nav__menu--right">
+                    <li>
+                        <a href="#">
+                        <i class="fas fa-search fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="menu-btn">
+                        <i class="fas fa-bars fa-2x"></i>
+                    </li>
+                </ul>
+            </nav>
+            
+            <!-- HEADER CONTENT -->
+            <section class="header__showcase">
+                <div class="header__showcase--first">
+                    <h2 class="header__showcase--title">Welcome player!</h2>
+                    <p class="header__showcase--subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias optio labore iste doloribus neque ad magnam facere alias corporis assumenda quisquam aut, officiis exercitationem vel quod omnis vitae voluptate ea.
+                    </p>
+                </div>
+                <div class="header__showcase--second">
+                    <div class="header__showcase--clippy01"></div>
+                    <div class="header__showcase--clippy02"></div>
+                    <div class="header__showcase--clippy03"></div>
+                    <div class="header__showcase--clippy04"></div>
+                </div>
+            </section>
+
+            <hr>
+
+            <div class="header__button">
+                <button class="btn">Sign in</button>
+                <button class="btn">Sign up</button>
+            </div>
+        </section>
+    </header>
+
+    <article class="news__cards container">
+        <div>
+            <figure>
+                <img src="https://images.pexels.com/photos/6335/man-coffee-cup-pen.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+            </figure>
+            <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt reiciendis ipsam harum adipisci deserunt dolore dolorem mollitia non maiores dolor!</p>
+            <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
+        </div>
+        <div>
+            <figure>
+                <img src="https://images.pexels.com/photos/177557/pexels-photo-177557.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+            </figure>
+            <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt reiciendis ipsam harum adipisci deserunt dolore dolorem mollitia non maiores dolor!</p>
+            <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
+        </div>
+        <div>
+            <figure>
+                <img src="https://images.pexels.com/photos/242492/pexels-photo-242492.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+            </figure>
+            <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt reiciendis ipsam harum adipisci deserunt dolore dolorem mollitia non maiores dolor!</p>
+            <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
+        </div>
+        <div>
+            <figure>
+                <img src="https://images.pexels.com/photos/2538122/pexels-photo-2538122.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+            </figure>
+            <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt reiciendis ipsam harum adipisci deserunt dolore dolorem mollitia non maiores dolor!</p>
+            <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
+        </div>
+    </article>
+
+    <section class="banner">
+        <div class="circle"></div>
+        <div class="content">
+            <div class="content__cube">
+                <h2>Rubik's Cube By</h2>
+                <p>Andres Damelio</p>
+                <a href="https://github.com/Andresdamelio/draw-css" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </div>
+        <div class="container__css">
+            <div class="cube">
+              <div class="cube__face face-right">
+                <div class="cube--face--item"></div>
+                <div class="cube--face--item"></div>
+                <div class="cube--face--item"></div>
+                <div class="cube--face--item"></div>
+                <div class="cube--face--item"></div>
+                <div class="cube--face--item"></div>
+                <div class="cube--face--item"></div>
+                <div class="cube--face--item"></div>
+                <div class="cube--face--item"></div>
+              </div>
+              <div class="cube__face face-left">
+                <div class="cube--face--item"></div>
+                <div class="cube--face--item"></div>
+                <div class="cube--face--item"></div>
+                <div class="cube--face--item"></div>
+                <div class="cube--face--item"></div>
+                <div class="cube--face--item"></div>
+                <div class="cube--face--item"></div>
+                <div class="cube--face--item"></div>
+                <div class="cube--face--item"></div>
+              </div>
+              <div class="cube__face face-bottom">
+                <div class="cube--face--item"></div>
+                <div class="cube--face--item"></div>
+                <div class="cube--face--item"></div>
+                <div class="cube--face--item"></div>
+                <div class="cube--face--item"></div>
+                <div class="cube--face--item"></div>
+                <div class="cube--face--item"></div>
+                <div class="cube--face--item"></div>
+                <div class="cube--face--item"></div>
+              </div>
+            </div>
+            <div class="base__top"></div>
+            <div class="base">
+              <h2 class="base__title">Rubik's &reg;</h2>
+            </div>
+          </div>
+    </section>
+    
+    <section class="form">
+        <form action="" class="form__content">
+            <div>
+                <input class="form__content--input" type="text" name="" id="" placeholder="Write your name">
+            </div>
+            <div>
+                <input class="form__content--input" type="email" name="" id="" placeholder="Write your email">
+            </div>
+            <div>
+                <input class="form__content--input" type="text" name="" id="" placeholder="Write the subject">
+            </div>
+            <div>
+                <textarea class="form__content--input" name="" id="" cols="30" rows="10" placeholder="Compose the message"></textarea>
+            </div>
+            <div>
+                <input class="form__content--submit" type="submit" value="Submit">
+            </div>
+        </form>
+        <div class="form__i">
+            <i class="fas fa-envelope-open-text "></i>
+        </div>               
+    </section>
+
+    <div class="social__media">
+        <div class="social__media--content">
+            <h3>Social Media</h3>
+        </div>
+        <div class="social__media--content">
+            <a href="#">
+                <i class="fab fa-twitter-square fa-4x"></i>
+            </a>
+        </div>
+        <div class="social__media--content">
+            <a href="#">
+                <i class="fab fa-instagram fa-4x"></i>
+            </a>
+        </div>
+        <div class="social__media--content">
+            <a href="#">
+                <i class="fab fa-facebook-square fa-4x"></i>
+            </a>
+        </div>
+        <div class="social__media--content">
+            <a href="#">
+                <i class="fab fa-github fa-4x"></i>
+            </a>
+        </div>
+    </div> 
+    
+    <footer class="footer">
+        <div class="footer--container">
+            <ul>
+                <li>
+                    <h3>Company</h3>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Team</a>
+                </li><li>
+                    <a href="#">Blog</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#">
+                        <h3>Contact us</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"><i class="far fa-address-book"></i> 6602 Collins Ave, Miami Beach, FL 33141, Estados Unidos</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fas fa-phone"></i> +1 305-861-8900</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fas fa-at"></i> email@email.com</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#">
+                        <h3>Title 3</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">text 1</a>
+                </li>
+                <li>
+                    <a href="#">text 1</a>
+                </li><li>
+                    <a href="#">text 1</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#">
+                        <h3>Title 4</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">text 1</a>
+                </li>
+                <li>
+                    <a href="#">text 1</a>
+                </li><li>
+                    <a href="#">text 1</a>
+                </li>
+            </ul>            
+        </div>
+        <div class="footer__second">
+            <h4>Copyright &copy 2021 - website</h4>
+        </div>
+    </footer>
+    
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="/src/main.js"></script>
+</body>
+</html>
